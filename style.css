@@ -1,0 +1,36 @@
+/* .class_div{
+    height: 200px;
+    width: 100px;
+    border: 1px solid black;
+    padding: 3px;
+    margin: 20px;
+    background-color: pink;
+    text-align: center;
+} */
+ body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+button {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

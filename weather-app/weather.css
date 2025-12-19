@@ -1,0 +1,93 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(to bottom right, #2a738f, #a4cdf0);
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    min-height:100vh;
+    background-image: url("https://imgcdn.stablediffusionweb.com/2024/3/19/49925953-5f53-4394-9e6a-52b3759cebc4.jpg");
+}
+body::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6); /* dark overlay */
+  z-index: -1;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    min-height: 100vh;
+}
+
+.current-weather {
+    font-size: large;
+    font-style: italic;
+    background-color: #bbcbd9;
+    padding: 10px;
+}
+
+h1, h2,h3{
+    color: #ffff;
+}
+
+input {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    background: #0066cc;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004d99;
+}
+
+.forecast {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+}
+
+@media (max-width: 480px) {
+    input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .forecast {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.day {
+    background: linear-gradient(135deg, #f0f9ff, #cfe0ff);
+    border-radius: 12px;
+    padding: 12px;
+    font-size: 0.95rem;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.day:hover {
+    background: linear-gradient(135deg, #e0f0ff, #5580bc);
+}

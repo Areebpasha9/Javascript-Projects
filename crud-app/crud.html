@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD APP</title>
+    <link rel="stylesheet" href="crud.css">
+</head>
+
+<body>
+    <h2>Student Details</h2>
+    <div class="form-box">
+        <!-- <input type="number" name="id" id="id" placeholder="Enter Id" readonly> -->
+        <input type="text" name="name" id="name" placeholder="Enter Name">
+        <input type="email" name="email" id="email" placeholder="Enter Email">
+        <button onclick="addStudent()" id="submit-btn">Add Record</button>
+        <!-- <button onclick="getAllStudent()">Load All</button> -->
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+    </table>
+
+</body>
+<script src="crud.js"></script>
+
+</html>

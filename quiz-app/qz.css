@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #8540cf, #0b295c);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.app {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
+    padding: 2rem 3rem;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.2rem;
+    margin-bottom: 1.2rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+/* Selection buttons */
+.subject-buttons,
+.difficulty-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.subject-btn,
+.difficulty-btn {
+    background: #00c9a7;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.subject-btn:hover,
+.difficulty-btn:hover {
+    background: #00a589;
+    transform: scale(1.05);
+}
+
+/* Quiz styling */
+.quiz {
+    margin-top: 1rem;
+}
+
+#question {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.answer-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+    padding: 0.8rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.Correct {
+    background: #00c851 !important;
+}
+
+.Incorrect {
+    background: #ff4444 !important;
+}
+
+#next-btn {
+    margin-top: 1rem;
+    background: #ff9f43;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    display: none;
+    transition: 0.3s;
+}
+
+#next-btn:hover {
+    background: #ff7f00;
+}
+
+#easy-btn:hover {
+    background-color: #00c851 !important;
+}
+
+#medium-btn:hover {
+    background-color: #c7c348 !important;
+}
+
+#hard-btn:hover {
+    background-color: #be5d3a !important;
+}
+.timer {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff4d4d;
+    margin-bottom: 10px;
+    text-align: right;
+}

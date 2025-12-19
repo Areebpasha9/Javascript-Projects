@@ -1,0 +1,29 @@
+.form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    background: #bfd8d2;
+    box-shadow: 0 0 10px rgba(13, 13, 13, 0.1);
+}
+label{
+  font-style: italic;
+  font-weight: bold;
+}
+input,select{
+    width: 150px;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box  ;
+}
+button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #000000;
+}

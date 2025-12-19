@@ -1,0 +1,19 @@
+1) What is the difference between HTML, CSS, and JavaScript?
+
+Ans) HTML is used for structuring the content of a webpage, CSS is used for styling and layout, and JavaScript is a programming language that adds interactivity and functionality to websites.
+
+2) Can you explain the concept of responsive web design?
+
+Ans) Responsive web design ensures that websites adapt and display properly on different devices and screen sizes. This is achieved by using CSS media queries and flexible layouts to adjust the design elements based on the user's screen resolution.
+
+3) How do you optimize a website for performance?
+
+Ans) Website performance can be improved by optimizing code, reducing file sizes, leveraging caching techniques, minimizing HTTP requests, and using techniques like minification and compression. Additionally, optimizing images, utilizing content delivery networks (CDNs), and following best practices for front-end development can also enhance performance.
+
+4) What is the purpose of AJAX in web development?
+
+Ans) AJAX (Asynchronous JavaScript and XML) is a technique that allows web applications to update content asynchronously without reloading the entire webpage. It enables seamless user experiences by fetching and displaying data from a server in the background, improving interactivity and responsiveness.
+
+5) Explain the concept of MVC (Model-View-Controller) architecture.
+
+Ans) MVC is an architectural pattern commonly used in web development. The model represents the data and business logic, the view handles the presentation and user interface, and the controller manages the communication between the model and the view. This separation of concerns promotes code organization, maintainability, and scalability.
